@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --text: white;
+  --background: #292727;
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  background-color: var(--background);
+  color: var(--text);
+}
+
+
